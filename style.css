@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .seletora {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(180deg, #000, #F5DE29);
+
+        .login {
+            width: 100%;
+            max-width: 480px;
+            background: #fff;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 25px rgba(238, 255, 0, 0.685);
+        }
+
+        .login h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 30px;
+            color: #000000;
+        }
+
+        .input {
+            margin-bottom: 18px;
+        }
+
+        .input label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .input input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            outline: none;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .input input:focus {
+            border-color: #F5DE29;
+            box-shadow: 0 0 6px rgb(199, 176, 0);
+        }
+
+        .opcao {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+
+        .opcao label {
+            color: #333;
+        }
+
+        .entra {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        .entra a {
+            color: #fde000;
+            text-decoration: none;
+        }
+
+        .entra a:hover {
+            text-decoration: underline;
+        }
+
+        .logar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            .icone {
+                display: flex;
+                gap: 5px;
+
+                .icone a {
+                    display: flex;
+                    background-color: black;
+                }
+            }
+        }
+
+
+        button {
+            width: 100%;
+            height: 45px;
+            background: #000000;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #ffe100d5;
+            transform: scale(1.05);
+            color: black;
+        }
+    }
+
+    .img {
+        width: 50%;
+        height: 100%;
+
+        .logo-img {
+            width: 100%;
+            height: 100%;
+
+
+            .logo {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+

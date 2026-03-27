@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo-header.jpg" alt="logo">
+        <nav>
+            <ul>
+                <a href="inicio.html">
+                    <li>Início</li>
+                </a>
+                <a href="bolsa.html">
+                    <li>Bolsa</li>
+                </a>
+                <a href="noticias.html">
+                    <li>Notícias</li>
+                </a>
+            </ul>
+        </nav>
+        <li>
+            <button class="bi bi-search"></button>
+            <input type="text" placeholder="Pesquisar..." id="">
+        </li>
+    </header>
+
+    <div class="conteudo-principal">
+        <h1 class="titulo-bolsa">Cotações da Bolsa</h1>
+        <div class="container-tabelas">
+
+            <table class="tabela-bolsa">
+                <thead class="cabecalho-tabela">
+                    <tr>
+                        <th>Ativos</th>
+                        <th>Empresa</th>
+                        <th>Preço</th>
+                        <th>Var%</th>
+                    </tr>
+                </thead>
+                <tbody class="corpo-tabela">
+                    <tr>
+                        <td>AZTE11</td>
+                        <td>AZT Energia ON</td>
+                        <td>R$0,38</td>
+                        <td class="var-positiva"><span class="icone">⬆</span>+35,71%</td>
+                    </tr>
+                    <tr>
+                        <td>AMAR3</td>
+                        <td>LOJAS MARISA ON</td>
+                        <td>R$1,36</td>
+                        <td class="var-positiva"><span class="icone">⬆</span>+14,29%</td>
+                    </tr>
+                    <tr>
+                        <td>CBEE3</td>
+                        <td>AMPLA ENERG ON</td>
+                        <td>R$12,50</td>
+                        <td class="var-positiva"><span class="icone">⬆</span>+13,64%</td>
+                    </tr>
+                    <tr>
+                        <td>AMER3</td>
+                        <td>Americanas ON</td>
+                        <td>R$6,82</td>
+                        <td class="var-positiva"><span class="icone">⬆</span>+10,00%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <table class="tabela-bolsa">
+                <thead class="cabecalho-tabela">
+                    <tr>
+                        <th>Ativos</th>
+                        <th>Empresa</th>
+                        <th>Preço</th>
+                        <th>Var%</th>
+                    </tr>
+                </thead>
+                <tbody class="corpo-tabela">
+                    <tr>
+                        <td>BSLI4</td>
+                        <td>BRB BANCO PN</td>
+                        <td>R$11,49</td>
+                        <td class="var-positiva"><span class="icone">⬆</span>+9,95%</td>
+                    </tr>
+                    <tr>
+                        <td>AZEV11</td>
+                        <td>AZEVEDO</td>
+                        <td>R$0,09</td>
+                        <td class="var-negativa"><span class="icone">⬇</span>-9,09%</td>
+                    </tr>
+                    <tr>
+                        <td>CTSA3</td>
+                        <td>SANTANENSE ON</td>
+                        <td>R$2,64</td>
+                        <td class="var-negativa"><span class="icone">⬇</span>-8,65%</td>
+                    </tr>
+                    <tr>
+                        <td>PDGR3</td>
+                        <td>PDG REALT ON</td>
+                        <td>R$0,14</td>
+                        <td class="var-negativa"><span class="icone">⬇</span>-6,67%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="btn-social">
+                        <a href="#" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        <a href="#" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="#">Contato: Astreainvest@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
